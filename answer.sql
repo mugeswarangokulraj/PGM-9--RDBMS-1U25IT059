@@ -1,10 +1,6 @@
 CREATE DATABASE IF NOT EXISTS CollegeDB;
-
+CREATE DATABASE CollegeDB;
 USE CollegeDB;
-
-DROP TABLE IF EXISTS Student;
-DROP TABLE IF EXISTS Department;
-
 CREATE TABLE Department (
     DepartmentID INT PRIMARY KEY,
     DepartmentName VARCHAR(50)
